@@ -233,23 +233,4 @@
 		"command"		"TestMicrophone"
 		"Default"		"0"
 	}
-	"MilesVoiceLabel"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"MilesVoiceLabel"
-		"xpos"			"43"
-		"ypos"			"250"
-		"wide"			"350"
-		"tall"			"48"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#GameUI_Miles_Voice"
-		"textAlignment"		"west"
-		"dulltext"		"1"
-		"brighttext"		"0"
-		"wrap"			"1"
-	}
 }

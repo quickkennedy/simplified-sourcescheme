@@ -151,37 +151,9 @@
 		"textinsetx"		"6"
 		"textinsety"		"0"
 		"auto_wide_tocontents"		"0"
+		"auto_tall_tocontents"		"0"
 		"use_proportional_insets"		"0"
-		"Default"		"0"
-	}
-	"ThirdPartySoundCredits"
-	{
-		"ControlName"		"URLButton"
-		"fieldName"		"ThirdPartySoundCredits"
-		"xpos"		"254"
-		"ypos"		"270"
-		"wide"		"200"
-		"tall"		"24"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"8"
-		"labelText"		"#GameUI_ThirdPartyTechCredits"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
-		"command"		"ShowThirdPartyAudioCredits"
-		"Default"		"1"
-		"selected"		"0"
+		"default"		"0"
 	}
 	"AudioSpokenLanguageLabel"
 	{
@@ -208,6 +180,8 @@
 		"textinsetx"		"0"
 		"textinsety"		"0"
 		"auto_wide_tocontents"		"0"
+		"auto_tall_tocontents"		"0"
+		"use_proportional_insets"		"0"
 	}
 	"RequiresRestartLabel"
 	{
@@ -234,6 +208,8 @@
 		"textinsetx"		"0"
 		"textinsety"		"0"
 		"auto_wide_tocontents"		"0"
+		"auto_tall_tocontents"		"0"
+		"use_proportional_insets"		"0"
 	}
 	"sfx label"
 	{
@@ -261,6 +237,8 @@
 		"textinsetx"		"0"
 		"textinsety"		"0"
 		"auto_wide_tocontents"		"0"
+		"auto_tall_tocontents"		"0"
+		"use_proportional_insets"		"0"
 	}
 	"MusicVolumeLabel"
 	{
@@ -288,6 +266,8 @@
 		"textinsetx"		"0"
 		"textinsety"		"0"
 		"auto_wide_tocontents"		"0"
+		"auto_tall_tocontents"		"0"
+		"use_proportional_insets"		"0"
 	}
 	"SoundQualityLabel"
 	{
@@ -315,6 +295,8 @@
 		"textinsetx"		"0"
 		"textinsety"		"0"
 		"auto_wide_tocontents"		"0"
+		"auto_tall_tocontents"		"0"
+		"use_proportional_insets"		"0"
 	}
 	"SpeakerConfigLabel"
 	{
@@ -342,6 +324,8 @@
 		"textinsetx"		"0"
 		"textinsety"		"0"
 		"auto_wide_tocontents"		"0"
+		"auto_tall_tocontents"		"0"
+		"use_proportional_insets"		"0"
 	}
 	"TestSpeakersWarning"
 	{
@@ -363,12 +347,14 @@
 		"textAlignment"		"north-west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Font"		"DefaultSmall"
+		"font"		"DefaultSmall"
 		"wrap"		"1"
 		"centerwrap"		"0"
 		"textinsetx"		"0"
 		"textinsety"		"0"
 		"auto_wide_tocontents"		"0"
+		"auto_tall_tocontents"		"0"
+		"use_proportional_insets"		"0"
 	}
 	"TestSpeakers"
 	{
@@ -395,8 +381,10 @@
 		"textinsetx"		"6"
 		"textinsety"		"0"
 		"auto_wide_tocontents"		"0"
-		"command"		"TestSpeakers"
-		"Default"		"1"
+		"auto_tall_tocontents"		"0"
+		"use_proportional_insets"		"0"
+		"Command"		"TestSpeakers"
+		"default"		"0"
 		"selected"		"0"
 	}
 	"Label2"
@@ -425,5 +413,26 @@
 		"textinsetx"		"0"
 		"textinsety"		"0"
 		"auto_wide_tocontents"		"0"
+		"auto_tall_tocontents"		"0"
+		"use_proportional_insets"		"0"
+	}
+	"BuildModeDialog"
+	{
+		"ControlName"		"BuildModeDialog"
+		"fieldName"		"BuildModeDialog"
+		"xpos"		"274"
+		"ypos"		"36"
+		"wide"		"473"
+		"tall"		"451"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"RoundedCorners"		"15"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"settitlebarvisible"		"1"
+		"title"		"#Frame_Untitled"
 	}
 }
